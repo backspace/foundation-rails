@@ -31,7 +31,6 @@ jQuery(document).ready(function ($) {
 
 	if (window.location.hash) {
 		activateTab($('a[href="' + window.location.hash + '"]'));
-		$.foundation.customForms.appendCustomMarkup();
 	}
 
 	/* ALERT BOXES ------------ */
